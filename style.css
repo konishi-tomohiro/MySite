@@ -13,7 +13,9 @@ header{
 
 .center {
   width: 1024px;
+  /* max-width: 100%; */
   margin: 0 auto;
+  height: 70px;
 }
 
 header .image {
@@ -41,7 +43,9 @@ ul {
   color: #fafafa;
 }
 
-
+.fa-bars{
+  display: none;
+}
 
 .main-image {
   background-image: url(img/mv.png);
@@ -71,6 +75,7 @@ ul {
 .box {
   margin: 0 auto;
   width: 920px;
+  /* max-width: 100%; */
   text-align: center;
 }
 
@@ -90,7 +95,6 @@ ul {
   background-color: #ec715f;
   margin: 8px auto 0 auto;
 }
-
 
 .text{
   font-size: 16px;
@@ -172,6 +176,7 @@ ul {
 
 .feature{
   width: 980px;
+  max-width: 100%;
   text-align: center;
   margin: 0 auto;
 }
@@ -215,10 +220,12 @@ ul {
 
 .profile {
   background-color: #eceff1;
+  /* max-width: 100%; */
 }
 
 .profile-box {
   width: 1024px;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 90px;
@@ -259,9 +266,6 @@ ul {
   color: #000;
 
 }
-
-
-
 
 .contact-box {
   width: 800px;
@@ -327,13 +331,6 @@ ul {
   padding-right: 20px;
 }
 
-
-
-
-
-
-
-
 footer {
   background-color: #ec715f;
   height: 60px;
@@ -344,4 +341,205 @@ footer p{
   font-size: 16px;
   color: #fafafa;
   line-height: 60px;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+
+  header {
+    height: 50px;
+  }
+
+  .center{
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+  }
+
+  header .image{
+    height: 50px;
+  }
+
+
+  nav{
+    display: none;
+    float: none;
+  }
+
+  .fa-bars{
+    display: block;
+    float: right;
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 6px;
+  }
+
+
+  .main-image{
+    background-image: url(img/code.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+  }
+
+  .main-text {
+    font-size: 40px;
+    padding-top: 200px;
+    color: #fafafa;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .sub-text{
+    font-size: 18px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .portfolio-item1{
+    display: none;
+  }
+
+  .portfolio-item3{
+    display: none;
+  }
+
+  .portfolio-item5{
+    display: none;
+  }
+
+  .portfolio-item2{
+    float: none;
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-item4{
+    float: none;
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-item6{
+    float: none;
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .items{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .feature-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .strength1{
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    /* width: 100%; */
+  }
+
+  .strength2{
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    /* width: 100%; */
+  }
+
+  .strength3{
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    /* width: 100%; */
+  }
+
+  .strength-item{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .profile-box{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .image-box{
+    float:none;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .skill-box{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .profile-name{
+    padding-top: 20px;
+  }
+
+  .contact-box{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-left{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-left-content{
+    text-align: center;
+  }
+
+  .contact-right{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-right-content{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .fa-facebook-f{
+    padding-right: 0;
+  }
+
+  .fa-twitter{
+    margin: 0 8px;
+    padding-right: 0;
+  }
+
+
+
+
+
+
 }
